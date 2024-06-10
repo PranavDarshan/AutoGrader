@@ -20,6 +20,14 @@ The dataset is found in the [Dataset.csv](https://github.com/PranavDarshan/AutoG
 
 # Step 4: Deploying Fine Tuned Model on AWS SageMaker
 
+LLaMA-2 is a massive model with billions of parameters. Running it effectively requires significant computational resources, especially memory and potentially GPUs. Most local machines may not have enough power to handle the model efficiently. Due to this reason we deploy our model on AWS SageMaker.
+Check the [AWS-Deployment](https://github.com/PranavDarshan/AutoGrader/tree/main/AWS-Deployment) folder for more information. 
+
+1. Pull the Model from HuggingFace
+2. Create an Endpoint
+3. Create a Lambda Function
+4. Create a REST API Trigger for Lambda Function
+
 # Step 5: Handwriting to Text Conversion
 
 
