@@ -24,3 +24,13 @@ The dataset is found in the [Dataset.csv](https://github.com/PranavDarshan/AutoG
 
 
 # Step 5: Integrating with UI/UX
+
+# Results
+<p align=center>
+<img src=https://github.com/PranavDarshan/AutoGrader/blob/main/assets/ModelResult.jpg width=700, height=300>
+<img src=https://github.com/PranavDarshan/AutoGrader/blob/main/assets/RAG.jpg width=700, height=700>
+</p>
+
+
+
+
