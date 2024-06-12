@@ -1,13 +1,13 @@
 {
   "type": "service_account",
   "project_id": "stoked-energy-425601-b0",
-  "private_key_id": "ba8b9f0592962eac97ce0a16ea5411d580b98da0",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC7qNJECxU6g3/M\n6sANkn3+y0SbYcfo79aKkSoonfnRQcvwHdx1qAyWvV/INrZffH69v/tIOTfTnbk/\nGbg0pN8IrT35iaj4GpserBLoj7DcE+lcR9efSfRBIt6PV9M5JLU6bn/9GjJN9j3a\n9kC9CpkIa2/FiGQx8BWSjW6fSgQAdq4r3PCkpqeLkXR9HqPYuUS5oGhQAA1w0EHl\n6r12bOFxFfse7HmMSB60G9+N+Cwdyab4sNqthBioYwWfC0Wu6yeN8CaQzqh8FGjG\nPpJ4Uhj975SADUu71RAAEndeBJkMC0mXUY9Ait3k0UB0ZhUwy06nyFFjgtOX5WB6\nllElN4WvAgMBAAECggEABANYt8bK5ezw+zdb8w5abmv3ZCFDrqoOWvk+vw6dzIlN\nLK3ezI9S8ZhMJ5Jv9PvLFBC6dXFvzbE2SHCq3UlXUa6uwBrfB6s9/PpuDxYfkJ1G\nZMhOhqQEuq3dt5AHvtWXoI/DYezA/aTR7tBMUx6aZjEx+zXu+phpRbCLmJFzI3Vc\n4qBC8r0XYEprcluNWb8VlJttBHRLDHGwMhWwOwfhIYtgqyAjxBepDBOdPty2hdHq\nm8dPalEHGgjPztxxnzpFlMLmD+TlouFo8U1IU/n+NQbmTwEEZolsaoGu7vs3jEuG\nDuOucI7VzU8srp4Hb6DmCpqp1p+321XL7mLdpuIwyQKBgQDlvjfaap8ExMFSV90w\nRAZOQyR+v0hEPuegJyllWfPim5AkSvqywvP0qAFy0wZKuIxiV2a3kGeMfHBc4mJl\n373DyAEDnwqt0Lkw5spkoDRGq1OwGjceFGbMPYhh52szh4MGMXlkjtaSKDBcKzDl\nbvsFpnRc5RbxoAlweOyOVN4xyQKBgQDRG1Q+3mr7klXMVdgEjzsrICzjd9G5KzLE\nT0L56MJlUjAKbd8qNAQ5cFrYadnKSGPSnRptV6o3Z8kKhURp3rkRwIyfd0xr9chM\nqFcct9Fvf8xT1sDTC0mO8BhjVpsgYM8SRx0PtTdKKGcsHCSlXL2fZ06TuNzcwKrY\nIsMNehH3twKBgBnBWFuZBlivggisJvTJO3e8mTPIV96muqq+mSpuiiPGUsNu0GoH\n5vdvejIYLCVmSP6hU7eSbblXHfWbv3IyQgDXxB1W0AiqVIiB5wCe4R1nCYu9dJ5f\npSKSZ16qZd8x+uNP2o8GYFGkRb+fa+zcozF/9p2PZSITUduVAtf19a7ZAoGAVtI9\nEXlx/BBPVW8TKRl7XLWYTb3zMynvgzjRu0fcZwtP7RSfgztjwaGX5qFUjzutTsZy\nMZIjl6uc+qRIupiCSQ+kk5WKAo1jZAjFWqQr7lqmsOzK1RWrrhCcX6qW8EOh1pn2\nRA5e7YiHBfaNdKdkCCpxor4v3eyVQvZz/EWB7lMCgYAEypHIZ51zS03C6o/bSYud\ni1qXnmFWb5BdVhDz/Govf39S48O7CnyDVZT8UZhOC058wrK5DaewTDcDpHAwZtmF\n2oy6wLKflTg+8GpSB5ZQ1uO03O6NqVz6tba9mQb1GPxL81b5r+GAufmlxsQ3DOOg\n89Mo1jH9nnX5cVIhiMfSyQ==\n-----END PRIVATE KEY-----\n",
-  "client_email": "raghuveer@stoked-energy-425601-b0.iam.gserviceaccount.com",
-  "client_id": "103226118832242610767",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/raghuveer%40stoked-energy-425601-b0.iam.gserviceaccount.com",
+  "private_key_id": "----",
+  "private_key": "-----BEGIN PRIVATE KEY-----\n-----\n-----END PRIVATE KEY-----\n",
+  "client_email": "---",
+  "client_id": "----",
+  "auth_uri": "----",
+  "token_uri": "----",
+  "auth_provider_x509_cert_url": "-----",
+  "client_x509_cert_url": "----",
   "universe_domain": "googleapis.com"
 }
