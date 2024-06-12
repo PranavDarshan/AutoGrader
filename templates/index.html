@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Grader</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #202833;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .tit{
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: #141414;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card {
+            background-color: #2c2e3a;
+            border: none;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.02);
+        }
+        .card-header {
+            background-color: #19212d;
+            border-radius: 10px;
+            border-bottom: 1px solid #2c635f;
+        }
+        .btn-primary, .btn-success {
+            border: none;
+            border-radius: 20px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .btn-primary {
+            background-color: #347336;
+        }
+        .btn-primary:hover {
+            background-color: #5bae6c;
+            transform: translateY(-2px);
+        }
+        .btn-success {
+            background-color: #347336;
+        }
+        .btn-success:hover {
+            background-color: #5bae6c;
+            transform: translateY(-2px);
+        }
+        .form-control, .form-control-file {
+            background-color: #23272a;
+            color: #ffffff;
+            border: 1px solid #2c635f;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        .form-control::placeholder {
+            color: #b9bbbe;
+        }
+        .file-input-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+        }
+        .file-input {
+            font-size: 14px;
+            color: #ffffff;
+            background-color: #344378;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .file-input:hover {
+            background-color: #5b6eae;
+            transform: translateY(-2px);
+        }
+        .file-input-wrapper input[type=file] {
+            font-size: 100px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4 tit">Eval-Easy</h1>
+        
+        <!-- OCR Section -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h2>Grader</h2>
+            </div>
+            <div class="card-body">
+                <form method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="file"></label>
+                        <div class="file-input-wrapper">
+                            <button class="file-input">Select Image</button>
+                            <input type="file" class="form-control-file" id="file" name="file">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-success">Upload</button>
+                </form>
+                {% if ocr_text %}
+                <div class="mt-4">
+                    <h3>Result:</h3>
+                    <p>{{ ocr_text }}</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- FAISS Search Section -->
+        <div class="card">
+            <div class="card-header">
+                <h2>Relevant Search Retreival System</h2>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <div class="form-group">
+                        <label for="query">Enter the question:</label>
+                        <input type="text" class="form-control" id="query" name="query" placeholder="Search...">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+                {% if result_text %}
+                <div class="mt-4">
+                    <h3>Relevant Result:</h3>
+                    <p>{{ result_text }}</p>
+                </div>
+                {% endif %}
+                {% if image_data %}
+                <div class="mt-4">
+                    <h3>Page Image:</h3>
+                    <img src="{{ image_data }}" class="img-fluid" alt="PDF Page Image">
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
