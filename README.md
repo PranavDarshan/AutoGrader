@@ -27,11 +27,11 @@ Due to the limited 16 GB of VRAM on the Colab T4 GPU, full fine-tuning is not po
 Steps for Fine-Tuning
 1.Setup the Environment: Ensure you have access to a T4 GPU on Google Colab or Kaggle.
 2.Install Dependencies: Use the Hugging Face ecosystem of libraries including transformers, accelerate, peft, trl, and 3.bitsandbytes.
-4.Utilize QLoRA Technique: Fine-tune the model in 4-bit precision to optimize VRAM usage and maintain model performance.
+4.Utilize [QLoRA](https://arxiv.org/abs/2305.14314) Technique: Fine-tune the model in 4-bit precision to optimize VRAM usage and maintain model performance.
 
 By leveraging these tools and techniques, we can efficiently fine-tune the Llama 2–7b model despite hardware constraints.
 
-read more
+[read more](https://www.datacamp.com/tutorial/fine-tuning-llama-2)
 
 
 # Step 3: Creating a RAG Pipeline
