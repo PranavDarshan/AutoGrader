@@ -1,5 +1,9 @@
 # AutoGrader
 The above project is used to evaluate handwritten exam answer scripts. We have fine tuned Llama2 for this task and also created a RAG pipeline to display the page of the textbook where the answer to that question is present. Finally, we have deployed this model on AWS SageMaker and created a Lambda function to handle requests from the REST API. This project is fine tuned to evaluate answer scripts for the course Operating Systems only and every question is graded from 1-5. 
+We have created a whole ML Workflow from scratch. 
+<p align=center>
+<img src=https://github.com/PranavDarshan/AutoGrader/blob/main/assets/llmworkflow.png width=500, height=300>
+</p>
 
 # Step 1: Dataset Generation
 
