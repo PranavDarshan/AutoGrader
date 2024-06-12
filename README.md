@@ -36,7 +36,7 @@ Check the [AWS-Deployment](https://github.com/PranavDarshan/AutoGrader/tree/main
 Handwriting to Text Conversion is done using google vision. Already integrated in UI-UX, also present individually in vision-ocr folder. Fill in your details in vision_ocr.json.json and it is ready to use.
 
 # Step 5: Integrating with UI/UX
-After acquiring AWS api_url, the webapp can be run by following the steps in readme present in UI-UX folder.
+After acquiring AWS api_url, the webapp can be run by following the steps in readme present in [UI-UX]((https://github.com/PranavDarshan/AutoGrader/tree/main/UI-UX#integration-with-uiux)).
 # Results
 <p align=center>
 <img src=https://github.com/PranavDarshan/AutoGrader/blob/main/assets/ModelResult.jpg width=700, height=300>
