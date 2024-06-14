@@ -39,6 +39,8 @@ By leveraging these tools and techniques, we can efficiently fine-tune the Llama
 
 # Step 3: Creating a RAG Pipeline
 
+Check RAG folder for more information 
+
 # Step 4: Deploying Fine Tuned Model on AWS SageMaker
 
 LLaMA-2 is a massive model with billions of parameters. Running it effectively requires significant computational resources, especially memory and potentially GPUs. Most local machines may not have enough power to handle the model efficiently. Due to this reason we deploy our model on AWS SageMaker.
