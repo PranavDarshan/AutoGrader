@@ -2,6 +2,10 @@
 
 Since this model is a very large model and cannot be run on the local machine we make use of AWS Sagemaker to deploy this model. We tried to run this model locally on computers having <b>NVIDIA RTX 4050 GPU with 6GB</b> of memory. But this was still not enough to run the Llama2 model.
 
+# Architecture 
+
+<img src=https://github.com/PranavDarshan/AutoGrader/blob/main/assets/aws_auto.png/>
+
 # Step 1: Pull the Model from HuggingFace
 
 The model which was published to HuggingFace by the colab notebook now needs to be pulled to AWS Sagemaker for deployment.The link can be used to get the code for model deployment : https://huggingface.co/NiharMandahas/Os_script_evaluator. 
