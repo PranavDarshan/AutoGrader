@@ -15,14 +15,17 @@
 
 **Citation:**
 ```bibtex
-@inproceedings{darshan2024leveraging,
-  title={Leveraging LLM and RAG for Automated Answer Script Evaluation},
-  author={Darshan, Pranav and Mandahas, Nihar and MP, PR and Rajesh, Raghuveer and N, Deepamala},
-  booktitle={2024 8th International Conference on Computational System and Information Technology for Sustainable Solutions (CSITSS)},
+@INPROCEEDINGS{10817016,
+  author={Darshan, Pranav and Mandahas, Nihar and MP, Pratheek Rao and Rajesh, Raghuveer Narayanan and N, Deepamala},
+  booktitle={2024 8th International Conference on Computational System and Information Technology for Sustainable Solutions (CSITSS)}, 
+  title={Leveraging LLM and RAG for Automated Answer Script Evaluation}, 
   year={2024},
-  organization={IEEE},
-  doi={10.1109/CSITSS64042.2024.10817016}
-}
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Analytical models;Operating systems;Large language models;Computational modeling;Retrieval augmented generation;Education;Writing;Information technology;Context modeling;AWs SageMaker;fine tuning;large language models (LLMs);Retrieval Augmented Generation (RAG)},
+  doi={10.1109/CSITSS64042.2024.10817016}}
+
 ```
 
 # AutoGrader
