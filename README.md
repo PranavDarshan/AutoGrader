@@ -1,3 +1,30 @@
+# AutoGrader / GraderPro
+
+[![Paper](https://img.shields.io/badge/Paper-IEEE%20CSITSS%202024-blue)](https://ieeexplore.ieee.org/document/YOUR_DOI)
+[![Demo](https://img.shields.io/badge/🤗%20HuggingFace-Demo-yellow)](https://huggingface.co/pranavdarshan/OS-Script-Evaluator)
+
+> **Official Implementation** of "Leveraging LLM and RAG for Automated Answer Script Evaluation"  
+> *Pranav Darshan, Nihar Mandahas, PR MP, Raghuveer Rajesh, Deepamala N*  
+> Published at IEEE CSITSS 2024
+
+## 📄 Paper
+**Title:** Leveraging LLM and RAG for Automated Answer Script Evaluation  
+**Conference:** 8th International Conference on Computational System and Information Technology for Sustainable Solutions (CSITSS) 2024  
+**DOI:** [10.1109/CSITSS64042.2024.10817016](https://doi.org/10.1109/CSITSS64042.2024.10817016)  
+**Authors:** P. Darshan, N. Mandahas, PR MP, R. Rajesh, Deepamala N.  
+
+**Citation:**
+```bibtex
+@inproceedings{darshan2024leveraging,
+  title={Leveraging LLM and RAG for Automated Answer Script Evaluation},
+  author={Darshan, Pranav and Mandahas, Nihar and MP, PR and Rajesh, Raghuveer and N, Deepamala},
+  booktitle={2024 8th International Conference on Computational System and Information Technology for Sustainable Solutions (CSITSS)},
+  year={2024},
+  organization={IEEE},
+  doi={10.1109/CSITSS64042.2024.10817016}
+}
+```
+
 # AutoGrader
 The above project is used to evaluate handwritten exam answer scripts. We have fine tuned Llama2 for this task and also created a RAG pipeline to display the page of the textbook where the answer to that question is present. Finally, we have deployed this model on AWS SageMaker and created a Lambda function to handle requests from the REST API. This project is fine tuned to evaluate answer scripts for the course Operating Systems only and every question is graded from 1-5. 
 We have created a whole ML Workflow from scratch. 
