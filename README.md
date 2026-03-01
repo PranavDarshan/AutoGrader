@@ -1,6 +1,6 @@
 # AutoGrader / GraderPro
 
-[![Paper](https://img.shields.io/badge/Paper-IEEE%20CSITSS%202024-blue)]((https://ieeexplore.ieee.org/document/10817016))
+[![Paper](https://img.shields.io/badge/Paper-IEEE%20CSITSS%202024-blue)](https://ieeexplore.ieee.org/document/10817016)
 [![Demo](https://img.shields.io/badge/🤗%20HuggingFace-Demo-yellow)](https://huggingface.co/pranavdarshan/OS-Script-Evaluator)
 
 > **Official Implementation** of "Leveraging LLM and RAG for Automated Answer Script Evaluation"  
